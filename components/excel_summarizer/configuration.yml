@@ -1,0 +1,8 @@
+description: The ExcelSummarizer component is designed to read data from an uploaded
+  Excel workbook, analyze its contents (i.e., summaries and formula usage) and generate
+  a Word document output containing the analysis results. The component will use the
+  ExcelWorkbookInput, which inherits from the BaseModel, as its input data model,
+  and the WordDocumentOutput, also inheriting from the BaseModel, as its output data
+  model.
+name: ExcelSummarizer
+parameters: {}
