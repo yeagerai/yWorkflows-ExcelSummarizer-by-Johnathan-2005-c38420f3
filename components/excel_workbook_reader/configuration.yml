@@ -1,0 +1,9 @@
+description: The ExcelWorkbookReader component is designed to read the input Excel
+  workbook file and store its content and structure for further processing. It utilizes
+  the openpyxl or pandas library to read the Excel file's contents and structure,
+  allowing easy extraction of data from individual sheets or ranges within the workbook.
+  This component can be used to load data from Excel files in a Yeager Workflow, where
+  it can be combined with other components for processing or analysis.
+name: ExcelWorkbookReader
+parameters:
+  library_choice: pandas
