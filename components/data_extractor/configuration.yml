@@ -1,0 +1,9 @@
+description: Extracts and preprocesses relevant data from the input workbook, such
+  as data trends, patterns, and anomalies, using Excel APIs, pandas or data sources.
+  The component reads the input workbook data, processes it, identifies significant
+  data points and trends, and outputs the processed data in a format suitable for
+  further usage in the workflow.
+name: DataExtractor
+parameters:
+  data_extraction_config: default_config.yml
+  data_processing_method: pandas
