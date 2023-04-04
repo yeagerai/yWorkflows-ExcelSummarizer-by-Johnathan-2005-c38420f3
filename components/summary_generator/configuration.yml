@@ -1,7 +1,9 @@
 description: Generates a summary of the workbook, including key insights and relevant
   visual aids, using natural language processing or machine learning techniques, such
   as BERT or GPT-3.
+input-class: SummaryGeneratorInputDict
 name: SummaryGenerator
+output-class: SummaryGeneratorOutputDict
 parameters:
   model_type: gpt3
   summary_length: 150
