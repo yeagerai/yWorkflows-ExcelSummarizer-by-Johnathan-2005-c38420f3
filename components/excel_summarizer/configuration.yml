@@ -4,5 +4,7 @@ description: The ExcelSummarizer component is designed to read data from an uplo
   ExcelWorkbookInput, which inherits from the BaseModel, as its input data model,
   and the WordDocumentOutput, also inheriting from the BaseModel, as its output data
   model.
+input-class: ExcelWorkbookInput
 name: ExcelSummarizer
+output-class: WordDocumentOutput
 parameters: {}
